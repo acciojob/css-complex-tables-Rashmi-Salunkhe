@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Rowspan and Colspan</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <thead>
+            <tr>
+                <th>Firm</th>
+                <th>Org</th>
+                <th>Lob</th>
+                <th>Sub Lob</th>
+                <th>Business Plans</th>
+                <th>Business Components</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- First Row -->
+            <tr>
+                <td rowspan="11">XYZ</td>
+                <td rowspan="5">CST</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>1</td>
+                <td>10</td>
+            </tr>
+            <!-- Sample Rows -->
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+            <tr>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+            <tr>
+                <td>Data 7</td>
+                <td>Data 8</td>
+            </tr>
+            <!-- Sub Total Row -->
+            <tr>
+                <td class="sub-total-text" colspan="3">Sub Total</td>
+                <td>6</td>
+                <td>15</td>
+            </tr>
+            <!-- More Sample Rows -->
+            <tr>
+                <td>Data 9</td>
+                <td>Data 10</td>
+            </tr>
+            <tr>
+                <td>Data 11</td>
+                <td>Data 12</td>
+            </tr>
+            <tr>
+                <td>Data 13</td>
+                <td>Data 14</td>
+            </tr>
+            <tr>
+                <td>Data 15</td>
+                <td>Data 16</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>

@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+/* Ensure the table spans full width */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't double up */
+}
+
+/* Style for table headers */
+th {
+    background-color: #888888; /* Dark grey background */
+    color: white; /* White text */
+    border: 1px solid orange; /* Orange border */
+    text-align: center; /* Center align text */
+    padding: 3px 5px; /* Padding for cells */
+}
+
+/* Style for table data cells */
+td {
+    border: 1px solid orange; /* Orange border */
+    text-align: center; /* Center align text */
+    padding: 3px 5px; /* Padding for cells */
+}
+
+/* Style for subtotal row text alignment */
+.sub-total-text {
+    text-align: right; /* Align text to the right */
+}
