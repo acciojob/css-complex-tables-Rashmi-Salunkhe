@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 /* Ensure the table spans full width */
 table {
     width: 100%;
@@ -24,4 +23,9 @@ td {
 /* Style for subtotal row text alignment */
 .sub-total-text {
     text-align: right; /* Align text to the right */
+}
+
+/* Ensure the subtotal row is correctly styled */
+.sub-total-row {
+    background-color: #f2f2f2; /* Optional: light grey background for visibility */
 }
